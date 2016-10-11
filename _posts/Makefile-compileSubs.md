@@ -1,7 +1,7 @@
 ---
 title: 利用总控Makefile一次性编译所有子程序包
 date: 2016-06-09 16:07:40
-categories: Coding and Compiling
+categories: [programming]
 tags: [Makefile,Linux,Compiling]
 ---
 
@@ -97,6 +97,3 @@ prj_sub3.make: prj_sub3
 `make -C prj_sub1`等价于`cd prj_sub1; make`。其相当于先进入目录`prj_sub1`，然后执行`make`命令。
 与编译类似，`install`与`clean`操作一次性完成所有子程序包的安装及清理操作。
 需要注意的是，利用`export BIN=../bin`，将变量`BIN`传递至被调用`Makefile`。
-
-
-

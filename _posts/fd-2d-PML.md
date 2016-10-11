@@ -1,8 +1,8 @@
 ---
 title: PML边界-一阶声波方程有线差分模拟在二维下的实现
 date: 2016-09-17 01:54:33
-categories:
-tags: [FD]
+categories: [PDE]
+tags: [FD, modeling, wave equation]
 ---
 本文介绍了二维下声波方程PML吸收边界的有限差分实现。
 <img src="/fd-2d-PML/wave_field.jpg" width=600px >

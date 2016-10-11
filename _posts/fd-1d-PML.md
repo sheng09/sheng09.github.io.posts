@@ -1,8 +1,8 @@
 ---
 title: PML边界-一阶声波方程有线差分模拟
 date: 2016-09-13 10:38:40
-categories:
-tags: [FD]
+categories: [PDE]
+tags: [FD, modeling, wave equation]
 ---
 
 本文介绍了声波方程的PML吸收边界有限差分模拟，并利用一维模型例子加以说明。

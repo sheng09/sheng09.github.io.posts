@@ -1,8 +1,8 @@
 ---
 title: 一阶声波方程有线差分模拟在二维下的实现
 date: 2016-09-15 01:54:33
-categories:
-tags: [FD]
+categories: [PDE]
+tags: [FD, modeling, wave equation]
 ---
 本文介绍了一阶声波方程在二维下的有限差分模拟。
 <img src="/fd-2d/wave_field.jpg" width=600px >

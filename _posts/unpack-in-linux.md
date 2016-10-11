@@ -7,7 +7,11 @@ tags: [Linux]
 
 此文是写给呆萌女朋友的。
 <!-- more -->
-## tar
+
+<!-- toc -->
+
+
+## tar.gz
 1.使用tar打包并压缩文件(夹)
 ``` bash
 $ tar -cvzf  test.tar.gz  test
@@ -18,6 +22,18 @@ $ tar -cvzf  test.tar.gz  test
 2.解包并解压 .tar.gz
 ``` bash
 $ tar -xvzf  test.tar.gz
+```
+
+## tar.bz2
+1.使用tar打包并压缩文件(夹)
+``` bash
+$ tar -cjzf  test.tar.bz2  test
+```
+可以将test打包压缩并生产test.tar.bz，test可以是文件夹也可以是文件。
+
+2.解包并解压 .tar.bz
+``` bash
+$ tar -xjzf  test.tar.bz2
 ```
 
 ## zip

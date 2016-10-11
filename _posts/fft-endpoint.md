@@ -1,8 +1,8 @@
 ---
 title: FFT终点截断引起的错误
 date: 2016-09-12 09:55:07
-categories:
-tags:
+categories: Digital Signal Processing
+tags: [FFT]
 ---
 
 我看过很多例FFT计算中端点处理的错误，先来看以下的例子：
