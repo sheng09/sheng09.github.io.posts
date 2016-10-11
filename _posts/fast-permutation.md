@@ -140,4 +140,6 @@ void permutation( int pos, int avai ) {
 ```
 
 
-##　Codes:
+## Codes
+[Download](/exam/fast-permutation.tgz)
+[GitHub](https://github.com/sheng09/sheng09.github.io.posts/tree/master/_posts/fast-permutation)
