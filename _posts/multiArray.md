@@ -9,7 +9,7 @@ This post introduce methods of constructing and calling multidimensional array i
 
 <!--more-->
 
-<!--toc-->
+<!-- toc -->
 
 The key point of mutlidimensional array is using the pointer to pointers. For example, constructing two dimensional array requires a pointer array, each element of which points to an one dimensional array. 
 
