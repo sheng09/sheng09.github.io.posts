@@ -1,7 +1,7 @@
 ---
 title: Const Reference in Function Parameters
 date: 2017-01-21 17:07:40
-categories: [programming]
+categories: [Programming]
 tags: [c++]
 ---
 

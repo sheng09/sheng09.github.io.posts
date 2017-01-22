@@ -1,8 +1,8 @@
 ---
 title: 利用总控Makefile一次性编译所有子程序包
 date: 2016-06-09 16:07:40
-categories: [programming]
-tags: [Makefile,Linux,Compiling]
+categories: [Programming]
+tags: [Makefile,Linux,Compiling, Programming]
 ---
 
 当一个大的项目由很多子程序组成，而每一个子程序包都有自己独立的`Makefile`，这时候就需要一个`总控Makefile`来一次性完成所有的编译工作。以下给出了一个例子，以说明如何构建`总控Makefile`。

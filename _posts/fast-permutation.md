@@ -1,8 +1,8 @@
 ---
 title: 快速排列
 date: 2016-10-11 23:59:02
-categories: [programming]
-tags: [algorithm, bit, programming]
+categories: [Programming]
+tags: [algorithm, bit, Programming]
 ---
 利用位运算，快速实现排列。
 <!-- more -->

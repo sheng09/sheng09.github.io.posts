@@ -1,8 +1,8 @@
 ---
 title: 位运算--快速判断奇偶性
 date: 2016-10-10 09:03:10
-categories: [programming]
-tags: [bit, algorithm, programming]
+categories: [Programming]
+tags: [bit, algorithm, Programming]
 ---
 
 利用位运算，可以快速的判断整数的奇偶性。

@@ -1,8 +1,8 @@
 ---
 title: 位运算
 date: 2016-10-07 05:17:17
-categories: [programming]
-tags: [bit, programming]
+categories: [Programming]
+tags: [bit, Programming]
 ---
 
 1个Byte由8个Bit构成，每一个Bit为0或1。针对这一特性，利用位来存储数据，可以实现空间最优化。此外，由于CPU指令集可以一次性操作多个Bit，故这一方法可以避免对数据元素的循环遍历操作，从而实现加速。
