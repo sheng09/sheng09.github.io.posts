@@ -5,9 +5,10 @@ categories: [programming]
 tags: [c++]
 ---
 
-<!-- toc -->
-
 This post presents tips of using `const reference` in functions. Examples are presented for wrong using.
+
+<!-- more -->
+<!-- toc -->
 
 ## In Function Parameters
 `reference` is used to declare the formal parameters in a function, in order to speed up programs. However, a `const` argument may be 
