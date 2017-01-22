@@ -1,6 +1,6 @@
 ---
-title: Categories
-date: 2016-06-09 14:49:56
+title: categories
+date: 2017-01-21 20:35:54
 type: "categories"
 comments: false
 ---

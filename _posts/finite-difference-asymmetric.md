@@ -15,7 +15,7 @@ For $2i$th order accuracy finite difference(FD), symmetric scheme cannot apply t
 
 Let us take 2nd order FD as example:
 ## 2nd order accuracy
-#### point 0
+### point 0
 
 $$
 \begin{eqnarray}
@@ -89,7 +89,7 @@ $$
 
 ## 2ith order accuracy
 
-#### point 0
+### point 0
 For point 0, we have:
 
 $$
@@ -239,9 +239,9 @@ $$
 %\end{eqnarray}
 $$
 
-#### point 1
+### point 1
 ...
-#### point k (k=0,1,...,i-1)
+### point k (k=0,1,...,i-1)
 For point k, we have:
 
 $$
@@ -362,4 +362,5 @@ $$
 $$
 
 ## Examples
-![](/finite-difference-asymmetric/fd1_asym.png)
+FD scheme corresponding to accuracy orders of 2,4,6,8,10,12 are implemented to $f(x) = sin(x)$, their FD results are ploted versus theoretical first order derivative of $f'(x) = cos(x)$, as well as their error.
+![](/finite-difference-asymmetric/fd1_asym.jpg)

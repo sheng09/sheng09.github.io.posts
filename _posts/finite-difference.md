@@ -54,7 +54,7 @@ $$
 \end{eqnarray}
 $$
 
-#### (1) First order derivative
+### (1) First order derivative
 According to $\eqref{first}$, $f'(x)$ should be:
 $$
 \begin{eqnarray}
@@ -67,7 +67,7 @@ $$
 $$
 omitting tail items leads to $f'(x) = \frac{f(x+\delta) - f(x-\delta)}{2\delta}$. The accuracy is $O(\delta^2)$, known as second order accuracy.
 
-#### (2) Second order derivative
+### (2) Second order derivative
 In the same way, $f''(x)$ is derived from $\eqref{second}$
 $$
 \begin{eqnarray}
@@ -83,7 +83,7 @@ omitting tail items leads to $f''(x) = \frac{f(x+\delta) + f(x-\delta) - 2f(x)}{
 
 ## Higher Order Accuracy
 To increase the accuracy, $f'(x;\delta)$, $f'(x;2\delta)$, $f'(x;3\delta)$...etc are could be added together by appropriate ratios to counteract the items of $\delta^2$,$\delta^4$,$\delta^6$...etc. This method works for $f''(x)$ as well.
-#### (1) $f'(x)$
+### (1) $f'(x)$
 For step of $\delta$, $2\delta$, $3\delta$...etc, we have:
 $$
 \begin{eqnarray}
@@ -156,7 +156,7 @@ $$
 By calculation, $C_1,C_2,C_3,...,C_N$ have the value of:
 
 
-#### (2) $f''(x)$
+### (2) $f''(x)$
 For step of $\delta$, $2\delta$, $3\delta$...etc, we have:
 $$
 \begin{eqnarray}

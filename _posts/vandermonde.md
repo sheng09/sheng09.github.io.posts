@@ -49,7 +49,7 @@ $$
 
 An upper triangular matrix could be obtained by subtracting the row $(i+1)$  from row $i$:
 
-#### Step 1
+### Step 1
 
 
 $row(i+1) - row(i) [i=1,2,3,4,5,...,N-1] $
@@ -68,7 +68,7 @@ $$
 \end{equation}
 $$
 
-#### Step 2
+### Step 2
 $row(i+1) - 2^2row(i) [i=2,3,4,5,...,N-1] $
 $$
 \begin{equation}
@@ -84,7 +84,7 @@ $$
 \end{equation}
 $$
 
-#### Step 3
+### Step 3
 $row(i+1) - 3^2row(i) [i=3,4,5,...,N-1] $
 
 $$
@@ -101,11 +101,11 @@ $$
 \end{equation}
 $$
 
-#### Step k
+### Step k
 
 $row(i+1) - k^2row(i) [i=k,k+1,...,N-1] $
 ...
-#### Step N-1
+### Step N-1
 $row(i+1) - k^2row(i) [i=N-1] $
 
 Detail derivations are presented in [fd_coef_vandermonde.pdf](/exam/fd_coef_vandermonde.pdf).
