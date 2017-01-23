@@ -65,17 +65,16 @@ It is disaster for constructing multi-dimensional array in C because of lots of 
 
 ``` c++
 template <class T>
-T** alloc2(std::size_t nx, std::size_t ny, T*** p_m2 ) {
-    *p_m2 = (T**) ( new char [sizeof(T)*nx*ny + sizeof(T*)*nx] );
-    T* pdat = *p_m2 + nx;
+T** alloc2(std::size_t nx, std::size_t ny) {
+    T** p_m2 = (T**) ( new char [sizeof(T)*nx*ny + sizeof(T*)*nx] );
+    T*  pdat = *p_m2 + nx;
     for(std::size_t ix = 0; ix < nx; ++ix)
-        (*p_m2)[ix] = pdat + ix * ny;
+        p_m2[ix] = pdat + ix * ny;
     return *p_m2;
 }
 
 // usage
-float **m;
-alloc2(3,4,&m);
+float **m = alloc2<float>(3,4);
 // call m[i][j];
 delete m;
 ```
