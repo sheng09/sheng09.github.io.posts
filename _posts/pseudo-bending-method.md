@@ -31,7 +31,7 @@ The amount of calibration $R_c$ is obtained by minimizing the travel time.
 ## Computation
 Discretize the seismic ray and analyze a segment of it:
 
-![Digram from Um and Thurber](/pesudo-bending-method/fig1.png)
+![Digram from Um and Thurber](/pseudo-bending-method/fig1.png)
 
 The travel time for discretized ray path is:
 $$
@@ -68,13 +68,13 @@ For each points of the seismic ray, apply $\eqref{e1}$ and $\eqref{e2}$ to acqui
 
 Moreover, more ray path control points are require for traveltime convergence. Um and Thurber provides a flow chart:
 
-![Digram from Um and Thurber](/pesudo-bending-method/fig2.png)
+![Digram from Um and Thurber](/pseudo-bending-method/fig2.png)
 
 ## Codes & Test
 
 ### 1D constant gradient model
 For one-dimensional constant velocity gradient model, the analytic ray path is an arc, the red line presented bellow. Ray paths of iteration are presented in black lines, which finally converge to the analytic ray path.
-<img src="/pesudo-bending-method/path.jpg" width=500 align=center>
+<img src="/pseudo-bending-method/path.jpg" width=500 align=center>
 
 ### Codes
 [codes](/exam/raytracing_test1.tgz)
