@@ -1,5 +1,5 @@
 ---
-title: Ray Tracing (2) Pesudo Bending Method
+title: Ray Tracing (2) Pseudo Bending Method
 date: 2015-10-26 22:26:07
 categories: [Seismic Tomography]
 tags:
