@@ -1,6 +1,6 @@
 ---
 title: Multidimensional Array in C/C++
-date: 2017-01-22 21:37:45
+date: 2015-01-22 21:37:45
 categories: Programming
 tags: [c++]
 ---

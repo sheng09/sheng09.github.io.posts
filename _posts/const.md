@@ -1,6 +1,6 @@
 ---
 title: Const in C/C++
-date: 2017-01-21 17:07:40
+date: 2015-01-31 17:07:40
 categories: [Programming]
 tags: [c++]
 ---
