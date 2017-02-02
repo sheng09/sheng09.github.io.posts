@@ -2,7 +2,7 @@
 title: Linear Deconvolution
 date: 2016-06-09 20:27:50
 categories: [Digital Signal Processing]
-tags: [Digital Signal Processing, Inversion, Regularization, 接收函数]
+tags: [Digital Signal Processing, Inversion, Regularization, Receiver Function]
 ---
 Deconvolution problem is a subset of inversion, in which observed data is deconvolved to reconstruct the model given the blurring function or source wavelet. Items of inversion including "resolution", "error", "regularization", et. al also apply to deconvolution. Besides, deconvolution always associates transformation between time domain and frequency domain. Thus, principles inherited from digital singal processing apply to deconvolution. In other words, deconvolution is very complex, though massive codes and programs could output a time series in a blink of eye given no matter what kind of data input. Without comprehension of deconvolution and inversion, programs could be misused to provide wrong results. This blog attempts to theories and implementations of deconvolution.
 

@@ -1,6 +1,6 @@
 ---
 title: Finite Difference of Staggered Grid (2)
-date: 2016-10-18 22:18:22
+date: 2016-10-20 22:18:22
 categories: PDE
 tags:
 ---

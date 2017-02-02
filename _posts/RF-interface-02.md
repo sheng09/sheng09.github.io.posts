@@ -1,10 +1,10 @@
 ---
 title: 接收函数理论与实践（二）界面梯度对接收函数的影响
 categories:
-  - 接收函数
+  - Receiver Function
 tags:
-  - 接收函数
-  - 界面
+  - Receiver Function
+  - Interface
 date: 2016-06-15 18:29:14
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: 接收函数理论与实践（一）射线参数对接收函数的影响
 categories:
-  - 接收函数
+  - Receiver Function
 tags:
-  - 接收函数
+  - Receiver Function
   - 射线参数
 date: 2016-06-15 17:40:28
 ---
